@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-19T19:25:27 IST" name="Weather Api Suite" finished-at="2024-06-19T19:25:56 IST" duration-ms="28951">
+  <suite started-at="2024-10-06T17:10:59 IST" name="Weather Api Suite" finished-at="2024-10-06T17:11:25 IST" duration-ms="26056">
     <groups>
     </groups>
-    <test started-at="2024-06-19T19:25:27 IST" name="Api Tests" finished-at="2024-06-19T19:25:56 IST" duration-ms="28951">
+    <test started-at="2024-10-06T17:10:59 IST" name="Api Tests" finished-at="2024-10-06T17:11:25 IST" duration-ms="26056">
       <class name="api.BookingAPI.BookingApiTest">
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@415b0b49]" started-at="2024-06-19T19:25:28 IST" name="nameBefore" finished-at="2024-06-19T19:25:29 IST" duration-ms="807" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@311bf055]" started-at="2024-10-06T17:11:00 IST" name="nameBefore" finished-at="2024-10-06T17:11:00 IST" duration-ms="623" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@415b0b49]" started-at="2024-06-19T19:25:29 IST" name="createBooking" description="Create booking and verify in the booking API and delete" data-provider="DataProvider" finished-at="2024-06-19T19:25:38 IST" duration-ms="9103" status="PASS">
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@311bf055]" started-at="2024-10-06T17:11:00 IST" name="createBooking" description="Create booking and verify in the booking API and delete" data-provider="DataProvider" finished-at="2024-10-06T17:11:08 IST" duration-ms="8077" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@415b0b49]" started-at="2024-06-19T19:25:38 IST" name="nameBefore" finished-at="2024-06-19T19:25:38 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@311bf055]" started-at="2024-10-06T17:11:08 IST" name="nameBefore" finished-at="2024-10-06T17:11:08 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="getAllBookingID()[pri:0, instance:api.BookingAPI.BookingApiTest@415b0b49]" started-at="2024-06-19T19:25:38 IST" name="getAllBookingID" description="Hit the booking API and validate the status" finished-at="2024-06-19T19:25:41 IST" duration-ms="3234" status="PASS">
+        <test-method signature="getAllBookingID()[pri:0, instance:api.BookingAPI.BookingApiTest@311bf055]" started-at="2024-10-06T17:11:08 IST" name="getAllBookingID" description="Hit the booking API and validate the status" finished-at="2024-10-06T17:11:11 IST" duration-ms="2793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllBookingID -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@415b0b49]" started-at="2024-06-19T19:25:41 IST" name="nameBefore" finished-at="2024-06-19T19:25:41 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@311bf055]" started-at="2024-10-06T17:11:11 IST" name="nameBefore" finished-at="2024-10-06T17:11:11 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="updateBooking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@415b0b49]" started-at="2024-06-19T19:25:41 IST" name="updateBooking" description="Update the booking and verify in the booking API and delete" data-provider="DataProvider" finished-at="2024-06-19T19:25:49 IST" duration-ms="7566" status="PASS">
+        <test-method signature="updateBooking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@311bf055]" started-at="2024-10-06T17:11:11 IST" name="updateBooking" description="Update the booking and verify in the booking API and delete" data-provider="DataProvider" finished-at="2024-10-06T17:11:18 IST" duration-ms="6881" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBooking -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@415b0b49]" started-at="2024-06-19T19:25:49 IST" name="nameBefore" finished-at="2024-06-19T19:25:49 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@311bf055]" started-at="2024-10-06T17:11:18 IST" name="nameBefore" finished-at="2024-10-06T17:11:18 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="updatePartialBooking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@415b0b49]" started-at="2024-06-19T19:25:49 IST" name="updatePartialBooking" description="Update the partial booking and verify in the booking API and delete" data-provider="DataProvider" finished-at="2024-06-19T19:25:56 IST" duration-ms="7286" status="PASS">
+        <test-method signature="updatePartialBooking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.BookingAPI.BookingApiTest@311bf055]" started-at="2024-10-06T17:11:18 IST" name="updatePartialBooking" description="Update the partial booking and verify in the booking API and delete" data-provider="DataProvider" finished-at="2024-10-06T17:11:25 IST" duration-ms="6960" status="PASS">
           <params>
             <param index="0">
               <value>

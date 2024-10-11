@@ -80,9 +80,5 @@ pipeline {
         failure {
             echo 'Build or SonarQube analysis failed.'
         }
-
-        always {
-            // Optionally, add any cleanup tasks here
-        }
     }
 }

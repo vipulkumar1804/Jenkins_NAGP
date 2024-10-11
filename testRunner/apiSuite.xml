@@ -4,7 +4,7 @@
        <listener class-name="api.utils.ListenerTransform"/>
         <listener class-name="api.utils.ExtentReportUtil" />
     </listeners>
-<parameter name="apilogs" value="yes"/>
+<parameter name="apilogs" value="no"/>
     <test name="Api Tests">
         <classes>
             <class name="api.BookingAPI.BookingApiTest" />

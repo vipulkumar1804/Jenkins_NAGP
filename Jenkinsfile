@@ -1,10 +1,6 @@
 pipeline {
     agent any
     
-    tools {
-        maven 'Maven 3.8.5'  // Name of Maven installed in Jenkins Global Tool Configuration
-    }
-
     environment {
         // Define the environment variables for SonarQube
         SONARQUBE_URL = 'http://localhost:9000'  // URL of your SonarQube instance

@@ -5,7 +5,7 @@ pipeline {
         // Define environment variables
         SONAR_URL = 'http://localhost:9000'
         SONAR_TOKEN = 'e828a6df74baaac467b2c9989d5f0b10f7d572d2'
-        SONAR_SCANNER = 'Freestyle'
+        SONAR_SCANNER = 'NAGP_SonarQube'
     }
 
     stages {
@@ -30,7 +30,7 @@ pipeline {
 
         stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv('NAGP_Sonar') { 
+                withSonarQubeEnv('NAGP_SonarQube') { 
                     bat 'mvn sonar:sonar -Dsonar.host.url=${SONAR_URL} -Dsonar.login=${SONAR_TOKEN}'
                 }
             }
